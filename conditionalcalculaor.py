@@ -28,7 +28,7 @@ if operation == "multiply":
     print(f" the multiplication of two numbers is : { a * b}")
 if operation == "substract":
     print(f" the substraction of two numbers is : { a - b}")
-if operation == " divide ":
+if operation == "divide":
     print(f" the division of two numbers is : { a // b}")
 if operation != "add, multiply, divide, substact":
     print(" ")
