@@ -11,3 +11,7 @@
 # Please type in a temperature (F): 21
 # 21 degrees Fahrenheit equals -6.111111111111111 degrees Celsius
 # Brr! It's cold in here!
+
+a = float(input(" Please type is a temperature (F): "))
+# converting F into Celsius using formula C/100 = (F-32)/180
+# now we need Fahrenheit to celsius C = ((F-32)/9)*5
