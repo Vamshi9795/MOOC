@@ -33,8 +33,8 @@
 # I think gloves are in order
 # Don't forget your umbrella!
 print (" whats the weather looking like tomorrow ")
-a = input (" enter the temoerature for tomorrow in [C] : ")
-b = input (" Is it gonna rain tomorrow ? [Yes/No] : ")
+a = int(input (" enter the temoerature for tomorrow in [C] : "))
+b = int(input (" Is it gonna rain tomorrow ? [Yes/No] : "))
 condition  = a > 20 and b == "Yes"
 condition1 = 20 > a > 10 and b == "Yes"
 condition2 = 10 > a > 0 and b == "Yes"
