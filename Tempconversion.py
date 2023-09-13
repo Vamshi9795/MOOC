@@ -16,6 +16,6 @@ a = float(input(" Please type is a temperature (F): "))
 # converting F into Celsius using formula C/100 = (F-32)/180
 # now we need Fahrenheit to celsius C = ((F-32)/9)*5
 b = ((a-32)/9)*5
-print(f" a degrees Fahrenheit equals to {b} degree Celsius")
+print(f" {a} degrees Fahrenheit equals to {b} degree Celsius")
 if b <0:
     print(" Brr! It's cold in here!")
