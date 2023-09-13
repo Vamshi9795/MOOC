@@ -33,5 +33,26 @@
 # I think gloves are in order
 # Don't forget your umbrella!
 print (" whats the weather looking like tomorrow ")
-input (" enter the temoerature for tomorrow in [C] : ")
-input (" Is it gonna rain tomorrow ? : ")
+a = input (" enter the temoerature for tomorrow in [C] : ")
+b = input (" Is it gonna rain tomorrow ? [Yes/No] : ")
+condition  = a > 20 and b == "Yes"
+condition1 = 20 > a > 10 and b == "Yes"
+condition2 = 10 > a > 0 and b == "Yes"
+condition3  = a > 20 and b == "No"
+condition4 = 20 > a > 10 and b == "No"
+condition5 = 10 > a > 0 and b == "No"
+if condition:
+    print("Wear jeans and a T-shirt\n Don't forget your umbrella! ")
+if condition1:
+    print("Wear jeans and a T-shirt\n Don't forget your umbrella! ")
+if condition2:
+    print("Wear jeans and a T-shirt\n I recommend a jumper as well\n take a jacket with you\n Make it a warm coat, actually\n Don't forget your umbrella! ")
+if condition3:
+    print("Wear jeans and a T-shirt ")
+if condition4:
+    print("Wear jeans and a T-shirt ")
+if condition5:
+    print("Wear jeans and a T-shirt I recommend a jumper as well\n take a jacket with you\n Make it a warm coat, actually")
+
+
+
