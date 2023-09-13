@@ -10,14 +10,15 @@
 # Hours worked: 10
 # Day of the week: Sunday
 # Daily wages: 250.0 euros -->
-list = [ "monday", "tuesday" , "wednesday", "thursday", "friday", "saturday", "sunday"]
+list = [ "monday", "tuesday" , "wednesday", "thursday", "friday", "saturday",]
 a = float(input(" Please enter the houlry wage : "))
 b = float(input(" Please enter the number of hours worked : "))
 c = input(" please enter day of the week : ")
-if list[0:5]:
-    print(f" The daily wage is { a * b} ")
-if list[6]:
+if c == "sunday":
     print(f" The daily wage is { (2*a) * b} ")
+if c in list:
+   print(f" The daily wage is { a * b} ")
+
     
     
 
