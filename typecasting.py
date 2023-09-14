@@ -30,7 +30,8 @@
 a = float(input(" enter the floating point number "))
 print(" the floating point number that you have entered is ", a)
 print(" the rounded up of the floatng point number is ", int(a))
-b = int(a)
 #  used to store the new value of a 
-print(" the decimal portion of the number is :",(a - b)) 
+b = a-int(a)
+b = round(b,4)
+print(" the decimal portion of the number is",b) 
 #  substractng b from he new round uo gives the decimal point number
