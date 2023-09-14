@@ -29,3 +29,4 @@
 
 a = float(input(" enter the floating point number "))
 print(" the floating point number that you have entered is ", a)
+print(" the rounded up of the floatng point number is ", int(a))
