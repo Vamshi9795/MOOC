@@ -19,5 +19,5 @@ name = input(' Ente the word that you want the length for : ')
 print(name)
 length = len(name) 
 #  used to store the actual length
-print(f" The word has {length} letters in it.")
+print(f"The word has {length} letters in {name}")
 
