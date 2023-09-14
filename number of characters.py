@@ -20,4 +20,4 @@ print(name)
 length = len(name) 
 #  used to store the actual length
 print(f"The word has {length} letters in {name}")
-
+print(" Thank you!")
