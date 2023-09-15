@@ -23,9 +23,11 @@
 
 a = input(" enter the first name :").lower()
 b= input(" enter the second name :").lower()
-if a > b:
-    print(f"{b}comes alphabetically last. ")
-elif b > a:
-    print(f"{a}comes alphabetically last. ")
+if a<b:
+    print(f"{b} comes alphabetically last. ")
+elif b<a:
+    print(f"{a} comes alphabetically last. ")
 else:
     print(" both are the same words")
+
+print(" The programe has ended pepepe !!")
