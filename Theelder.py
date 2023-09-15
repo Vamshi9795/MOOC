@@ -20,8 +20,15 @@
 # Bill and Jean are the same age
 
 person1_age = int(input(" Enter the age of person1 :"))
-person2_name = (input(" Enter the name of person1 :"))
+person1_name = (input(" Enter the name of person1 :"))
 person2_age = int(input(" Enter the age of person2 :"))
 person2_name = (input(" Enter the name of person2 :"))
 #  statemet to input the name and age of the persons
+if person2_age > person1_age:
+    print(f" { person2_name }is elder than { person1_name} ")
+elif person1_age > person2_age:
+    print(f" { person1_name }is elder than { person2_name} ")
+else:
+    print(f" { person1_name} and {person2_name} are of same age")
 
+print(" the programe has ended !")
