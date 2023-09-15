@@ -17,3 +17,11 @@
 
 a = int(input(" enter the first number :"))
 b = int(input(" Enter the second number :"))
+#  used to get input for the integers
+if a > b:
+    print(" the greater number is ", a)
+elif a < b:
+    print(" the greater number is ", b)
+else:
+    print(" both numbers are equlal")
+    
