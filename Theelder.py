@@ -19,9 +19,9 @@
 # Age: 1
 # Bill and Jean are the same age
 
-person1_age = int(input(" Enter the age of person1"))
-person2_name = (input(" Enter the age of person1"))
-person2_age = int(input(" Enter the age of person2"))
-person2_name = (input(" Enter the age of person2"))
+person1_age = int(input(" Enter the age of person1 :"))
+person2_name = (input(" Enter the name of person1 :"))
+person2_age = int(input(" Enter the age of person2 :"))
+person2_name = (input(" Enter the name of person2 :"))
 #  statemet to input the name and age of the persons
 
