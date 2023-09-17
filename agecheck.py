@@ -18,4 +18,4 @@ if a>=5 and a<=100:
 if a<5 and a>0:
     print(" I suspect you cant write yet")
 if a>100 or a<0:
-    print(" This must be a mistake you should'nt exist")
+    print(" This must be a mistake you shouldn't exist")
