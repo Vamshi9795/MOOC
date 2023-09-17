@@ -15,7 +15,7 @@
 a = int(input(" enter whats your age in years :? "))
 if a>=5 and a<=100:
     print(f"OK, you are {a}  years old")
-if a<5 and a>0:
+elif a<5 and a>0:
     print(" I suspect you cant write yet")
-if a>100 or a<0:
+else:
     print(" This must be a mistake you shouldn't exist")
