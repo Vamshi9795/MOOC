@@ -11,3 +11,11 @@
 # Sample output
 # What is your age? -4
 # That must be a mistake
+
+a = int(input(" enter whats your age in years : ?"))
+if a>=5 and a<=100:
+    print(f"OK, you are {a}  years old")
+if a<5 and a>0:
+    print(" I suspect you cant write yet")
+if a>=100 and a<=0:
+    print(" This must be a mistake you should'nt exist")
