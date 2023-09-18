@@ -22,4 +22,4 @@ elif number%3 == 0:
 elif number%5 == 0:
     print("buzz")
 else:
-    (" the number is not divisible by both 3 and 5")
+    print(" the number is not divisible by both 3 and 5")
