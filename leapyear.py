@@ -13,9 +13,9 @@
 # Sample output
 # Please type in a year: 1800
 # That year is not a leap year.
-year = int(input(" Please enter the year"))
+year = int(input(" Please enter the year: "))
 if year>0:
-    if year % 4 == 0 and year % 100 == 0 and year % 400 == 0:
+    if (year % 4 == 0 and year %100 != 0) or year % 400 == 0:
         print(" The year is a leap year ")
     else:
         print(" the year is not a leap year")
