@@ -16,7 +16,7 @@
 
 a = input(" enter the user name :").lower()
 if a == "huey" or a == "dewey"or a == "louie":
-    print("  I think you might be one of Mickey donald duck's nephews")
+    print("  I think you might be one of donald duck's nephews")
 elif a in [ "morty", "fredie"]:
     print("  I think you might be one of Mickey Mouse's nephews")
 else:
