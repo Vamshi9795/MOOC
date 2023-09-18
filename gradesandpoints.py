@@ -20,3 +20,21 @@
 # Sample output
 # How many points [0-100]: -3
 # Grade: impossible!
+
+points = int(input(" please enter the number of points received "))
+if points>= 90 and points<= 100:
+    print(" you received grade = 5")
+elif points>= 80 and points<=89:
+    print(" you received a grade = 4 ")
+elif points>= 70 and points<=79:
+    print(" you received a grade = 3 ")
+elif points>= 60 and points<=69:
+    print(" you received a grade = 2 ")
+elif points>= 50 and points<=59:
+    print(" you received a grade = 1 ")
+elif points<0 and points>100:
+    print(" its impossible to get these points")
+else:
+    print(" enter value is not intger")
+    
+print(" Thanks for using the grade calculator ")
