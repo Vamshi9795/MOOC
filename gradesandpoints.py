@@ -32,9 +32,9 @@ elif points>= 60 and points<=69:
     print(" you received a grade = 2 ")
 elif points>= 50 and points<=59:
     print(" you received a grade = 1 ")
-elif points>=0 and points<=49:
+elif points>0 and points<=49:
     print(" you received a grade = fail")
-elif points<0 and points>100:
+elif points<0 or points>100:
     print(" its impossible to get these points")
 else:
     print(" enter value is not intger")
