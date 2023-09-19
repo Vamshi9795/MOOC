@@ -30,9 +30,19 @@
 # Amount of tax: 1950.0 euros
 
 a = float(input(" enter the value of the gift : "))
-if a>4999 and a<24999:
+if a>4999 and a<=24999:
     if a == 5000:
         print(" the git tax is $ 100")
     else:
         print(f" The gift tax is {100 + (( a - 5000)*0.08)}")
+elif a>24999 and a<=55000:
+    if a == 25000:
+        print(" the git tax is $ 1700")
+    else:
+        print(f" The gift tax is {1700 + (( a - 25000)*0.1)}")
+elif a>55000 and a<=200000:
+    if a == 55000:
+        print(" the git tax is $ 4700")
+    else:
+        print(f" The gift tax is {4700 + (( a - 55000)*0.12)}")
     
