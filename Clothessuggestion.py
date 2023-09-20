@@ -32,27 +32,30 @@
 # Make it a warm coat, actually
 # I think gloves are in order
 # Don't forget your umbrella!
-print (" whats the weather looking like tomorrow ")
-a = int(input (" enter the temoerature for tomorrow in [C] : "))
-b = (input (" Is it gonna rain tomorrow ? [Yes/No] : ")).lower()
-condition  = a > 20 and b == "yes"
-condition1 = 20 > a > 10 and b == "yes"
-condition2 = 10 > a > 0 and b == "yes"
-condition3 = a > 20 and b == "no"
-condition4 = 20 > a > 10 and b == "no"
-condition5 = 10 > a > 0 and b == "no"
-if condition:
-    print("Wear jeans and a T-shirt\n Don't forget your umbrella! ")
-if condition1:
-    print("Wear jeans and a T-shirt\n Don't forget your umbrella! ")
-if condition2:
-    print("Wear jeans and a T-shirt\n I recommend a jumper as well\n take a jacket with you\n Make it a warm coat, actually\n Don't forget your umbrella! ")
-if condition3:
-    print("Wear jeans and a T-shirt ")
-if condition4:
-    print("Wear jeans and a T-shirt ")
-if condition5:
-    print("Wear jeans and a T-shirt I recommend a jumper as well\n take a jacket with you\n Make it a warm coat, actually")
+try:
+    print (" whats the weather looking like tomorrow ")
+    a = int(input (" enter the temoerature for tomorrow in [C] : "))
+    b = (input (" Is it gonna rain tomorrow ? [Yes/No] : ")).lower()
+    condition  = a > 20 and b == "yes"
+    condition1 = 20 > a > 10 and b == "yes"
+    condition2 = 10 > a > 0 and b == "yes"
+    condition3 = a > 20 and b == "no"
+    condition4 = 20 > a > 10 and b == "no"
+    condition5 = 10 > a > 0 and b == "no"
+    if condition:
+        print("Wear jeans and a T-shirt\n Don't forget your umbrella! ")
+    if condition1:
+        print("Wear jeans and a T-shirt\n Don't forget your umbrella! ")
+    if condition2:
+        print("Wear jeans and a T-shirt\n I recommend a jumper as well\n take a jacket with you\n Make it a warm coat, actually\n Don't forget your umbrella! ")
+    if condition3:
+        print("Wear jeans and a T-shirt ")
+    if condition4:
+        print("Wear jeans and a T-shirt ")
+    if condition5:
+        print("Wear jeans and a T-shirt I recommend a jumper as well\n take a jacket with you\n Make it a warm coat, actually")
+except:
+    print(" Invalid Input Enter a numberic value")
 
 
 
