@@ -35,14 +35,28 @@ if a>4999 and a<=24999:
         print(" the git tax is $ 100")
     else:
         print(f" The gift tax is {100 + (( a - 5000)*0.08)}")
-elif a>24999 and a<=55000:
+elif a>=25000 and a<=54999:
     if a == 25000:
         print(" the git tax is $ 1700")
     else:
         print(f" The gift tax is {1700 + (( a - 25000)*0.1)}")
-elif a>55000 and a<=200000:
+elif a>=55000 and a<=199999:
     if a == 55000:
         print(" the git tax is $ 4700")
     else:
         print(f" The gift tax is {4700 + (( a - 55000)*0.12)}")
+elif a>=200000 and a<=999999:
+    if a == 200000:
+        print(" the git tax is $ 22100")
+    else:
+        print(f" The gift tax is {22100 + (( a - 200000)*0.15)}")
     
+elif a>1000000 and a<= 999999999999999999999999999999999999999999999999999999:
+    if a == 1000000:
+        print(" the tax is 142100")
+    else:
+        print(f" The gift tax is {142100 + (( a - 1000000)*0.17)}")
+else:
+    print(" The gift doesn't need any tax payment")
+    
+print(" Thanks for using the tax calucator")
