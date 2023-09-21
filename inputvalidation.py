@@ -40,9 +40,9 @@ try:
         elif a > 0:
             print(f" The square root of the number is {sqrt(a)}")
             #  a > 0 so prints the square root
-        elif a == 0 :
+        else:
             print(" Exiting the loop")
             break  
         # a == 0 then exits the loop
-except:
+except ValueError:
     print(" Enter a valid numberic input")
