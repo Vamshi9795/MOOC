@@ -11,11 +11,11 @@
 # Shall we continue? no
 # okay then -->
 
-# try:
-while True:
-             message = input(" Hi\n shall we continue ? ").lower()
-             if message == "no":
+try:
+    while True:
+             message = int(input(" Hi\n shall we continue ? "))
+             if message == 1234:
                  break
-             print(" Ok! lets")            
-# except:
-    # print(" ENter a valid inout")
+             print(" Ok! lets continue ")            
+except:
+     print(" ENter a valid numberic input")
