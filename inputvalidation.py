@@ -29,3 +29,22 @@
 # 1.0
 # Please type in a number: 0
 # Exiting...
+from math import sqrt
+try:
+    while True:
+        a = int(input(" Enter the number"))
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+except:
+    print(" Enter a valid numberic input")
