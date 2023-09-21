@@ -30,19 +30,20 @@
 # Please type in a number: 0
 # Exiting...
 from math import sqrt
-try:
-    while True:
-        a = int(input(" Enter the number: ")) 
-        # USed to take the input from the user
-        if a < 0:
-            print(" Inavild input")
-        #  used to check if its less than 0 if it is it will print invalid input but will still be in the loop
-        elif a > 0:
-            print(f" The square root of the number is {sqrt(a)}")
-            #  a > 0 so prints the square root
-        else:
-            print(" Exiting the loop")
-            break  
-        # a == 0 then exits the loop
-except ValueError:
-    print(" Enter a valid numberic input")
+
+while True:
+        try:
+            a = int(input(" Enter the number: ")) 
+            # USed to take the input from the user
+            if a < 0:
+                print(" Inavild input")
+            #  used to check if its less than 0 if it is it will print invalid input but will still be in the loop
+            elif a > 0:
+                print(f" The square root of the number is {sqrt(a)}")
+                #  a > 0 so prints the square root
+            else:
+                print(" Exiting the loop")
+                break  
+            # a == 0 then exits the loop
+        except ValueError:
+            print(" Enter a valid numberic input")
