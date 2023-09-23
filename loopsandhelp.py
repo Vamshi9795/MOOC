@@ -37,3 +37,24 @@
 # Incorrect...try again
 # Please type in your PIN: 4321
 # Too many attempts..
+
+a = input(" Enter the password:")
+max_attempts = 3
+attempts = 0
+while True:
+    b = input(" Repeat The password: ")
+    attempts +=1
+    if a == b:
+        sucess = True
+        break
+    if attempts == 3:
+        sucess = False
+        break
+    attempts_left = max_attempts - attempts
+    print(f" Incorrect password\n number of attempts left {attempts_left}")
+if sucess:
+    print(" User account created")
+else:
+    print(" Too many attempts")
+    
+    
