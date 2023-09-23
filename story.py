@@ -26,10 +26,6 @@
 # Please type in a word: night
 # It was a dark and stormy night
 
-a = input(" Please type in a word : ").lower()
 while True:
-    if a == "end":
-        break
-    else:
-        a += a
-        print(f" The story is \n {a}")
+    a = input(" Please type in a word : ").lower()
+    
