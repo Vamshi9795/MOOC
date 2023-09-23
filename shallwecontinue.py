@@ -11,11 +11,12 @@
 # Shall we continue? no
 # okay then -->
 
-try:
-    while True:
-             message = int(input(" Hi\n shall we continue ? "))
+
+while True:
+    try:
+             message = int(input(" PLease enter your password ? "))
              if message == 1234:
                  break
-             print(" Ok! lets continue ")            
-except:
-     print(" ENter a valid numberic input")
+             print(" The pin you entered in incorrect  ")            
+    except ValueError:
+        print(" ENter a valid numberic input")
