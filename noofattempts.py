@@ -15,13 +15,24 @@
 # PIN: 4321
 # Correct! It only took you one single attempt!
 
-a = int(input(" Enter the pin "))
+a = (input(" Enter the pin: "))
 #  used to take the input from the user
-attemps = 0
+attempts = 0
 # since we are counting attempts we made the initial attempts to 0
 print(" entered pin in:",a)
 # chceking to print the entered input
 while True:
-    b = int(input(" Repeat the pin"))
+    b = (input(" Repeat the pin:"))
     #  used ot take input for the pin to enter again so we can compare
-
+    attempts += 1
+    #  used to add the attemos by 1 basically attempts  = attempts + 1
+    if a == b:
+        print (" the pin is correct")
+        print (" attempts is ", attempts)
+        break
+    else:
+        print(" try agian ")
+            
+        
+    
+    
