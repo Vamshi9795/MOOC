@@ -15,9 +15,11 @@ while True:
     b = input(" Repeat the password: ")
     if a == b:
         print(" User account created")
+        break
     else:
         print(" THE password do not match\n Try again")
-    break
+ 
+    
 
     
         
