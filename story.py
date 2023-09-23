@@ -30,7 +30,10 @@ while True:
     #  used for a loop
     a = input(" Please type in a word : ").lower()
     #  used to take input
+    a += a
     if a == "end":
+        print(f(" The story is \n {a}"))
+        #  testing to see if it prints the story
         break
     # testing to see if loop ends if we use break
     
