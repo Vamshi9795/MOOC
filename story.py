@@ -27,5 +27,10 @@
 # It was a dark and stormy night
 
 while True:
+    #  used for a loop
     a = input(" Please type in a word : ").lower()
+    #  used to take input
+    if a == "end":
+        break
+    # testing to see if loop ends if we use break
     
