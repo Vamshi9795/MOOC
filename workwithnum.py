@@ -58,7 +58,7 @@ while True:
             print(conut)  
             break
         conut = (conut + 1)
-        sumo = sum + a
+        sumo = sumo + a
         print(f" The sum of numbers is { sum} ")
         #  used to count the numbers entered
        
