@@ -25,15 +25,20 @@
 # Please type in a word: night
 # Please type in a word: night
 # It was a dark and stormy night
-
+story = " "
+previous = None
 while True:
     #  used for a loop
     a = input(" Please type in a word : ").lower()
     #  used to take input
-    a += a
+    story += a + " "
     if a == "end":
-        print(f(" The story is \n {a}"))
+        print(f" The story is \n {story}")
         #  testing to see if it prints the story
         break
+    if a == previous:
+        print(f" The story is \n {story}")
+        break
     # testing to see if loop ends if we use break
+
     
