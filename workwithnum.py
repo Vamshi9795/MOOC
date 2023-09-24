@@ -54,12 +54,12 @@ while True:
     try:
         a = float(input(" Enter the number :"))
         #  used to take the input
+      
         if a == 0:  
-            print(conut)  
+            print(f" the numbers entered is {conut}")  
             break
         conut = (conut + 1)
         sumo = sumo + a
-        print(f" The sum of numbers is { sumo } ")
         #  used to count the numbers entered
        
         # pre task
@@ -73,3 +73,4 @@ while True:
       
     except ValueError:
         print(" Invalid input \n Input should only be numeric number")
+print(f" the sum of numbers is { sumo }")
