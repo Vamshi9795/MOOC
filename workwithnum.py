@@ -50,19 +50,27 @@
 # Negative numbers 1
 conut = 0
 sumo = 0
+mean = 0
 while True:
     try:
         a = float(input(" Enter the number :"))
         #  used to take the input
-      
         if a == 0:  
             print(f" the numbers entered is {conut}")  
             break
+        if a > 0:
+            print(f" The positve numbers are { conut}")
+        if a < 0:
+            print(f" The negative numbers are { conut}")
         conut = (conut + 1)
+        # #  pre tasl
+        # #  used to count the numbers entered
         sumo = sumo + a
-        #  used to count the numbers entered
-       
-        # pre task
+        #  # task 2
+        mean = sumo/conut
+        # #  task 3
+        
+        
         
         
         
@@ -74,3 +82,4 @@ while True:
     except ValueError:
         print(" Invalid input \n Input should only be numeric number")
 print(f" the sum of numbers is { sumo }")
+print(f" the mean of numbers is { mean }")
