@@ -48,12 +48,15 @@
 # The mean of the numbers is 8.5
 # Positive numbers 3
 # Negative numbers 1
-
+conut = 0
 while True:
     try:
         a = float(input(" Enter the number :"))
         #  used to take the input
+        conut = (conut + 1)
+        #  used to count the numbers entered
         if a == 0:
+            print(conut)
             break
         # pre task
         
