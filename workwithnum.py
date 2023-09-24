@@ -53,6 +53,9 @@ while True:
     try:
         a = float(input(" Enter the number :"))
         #  used to take the input
+        if a == 0:
+            break
+        # pre task
         
         
         
