@@ -19,9 +19,9 @@
 # 1000000 -->
 try:
     upper = int(input(" Enter the upper limit: "))
-    base = int(input(" Eenter the base"))
+    base = int(input(" Eenter the base: "))
     number = 1
-    while number < upper:
+    while number <= upper:
         print(number)
         number *=base 
         
