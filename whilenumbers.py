@@ -7,13 +7,9 @@
 # 3
 # 4
 # Please don't use the value True as the condition of your while loop in this exercise!
-
-while True:
-    try:
-        a = int(input(" Enter the number"))
-        print(a)
-        
-        
-        
-    except ValueError:
-        print(" Finished execution")
+try:
+    a = int(input(" Enter the number :"))
+    while a>0 and a != a:
+        print(a)        
+except ValueError:
+    print(" Finished execution")
