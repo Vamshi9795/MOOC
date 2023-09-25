@@ -9,7 +9,9 @@
 # Please don't use the value True as the condition of your while loop in this exercise!
 try:
     a = int(input(" Enter the number :"))
-    while a>0 and a != a:
-        print(a)        
+    currnt = 1
+    while currnt < a:
+        print(currnt) 
+        currnt += 1       
 except ValueError:
-    print(" Finished execution")
+    print(" Enter a vadid inout")
