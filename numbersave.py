@@ -2,10 +2,11 @@
 
 # The beginning of your output should look like this:
 try:
-    number = int(input(" Enter the numbers : "))
-    while 30 < number > 20:
-        if number % 2:
-            print(" even")
-            break
+    number = 2 
+    while number < 30 :
+        number+=1
+        if number % 2 == 0:
+            print(number)
+            number+=1
 except ValueError:
     print(" Enter the valid numberic integer input")
