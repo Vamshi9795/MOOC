@@ -1,12 +1,27 @@
-Please write a program which asks the user to type in a limit. The program then calculates the sum of consecutive numbers (1 + 2 + 3 + ...) until the sum is at least equal to the limit set by the user. The program should function as follows:
+# Please write a program which asks the user to type in a limit. The program then calculates the sum of consecutive numbers (1 + 2 + 3 + ...) until the sum is at least equal to the limit set by the user. The program should function as follows:
 
-Sample output
-Limit: 2
-3
-Sample output
-Limit: 10
-10
-Sample output
-Limit: 18
-21
-If you have trouble understanding how the desired output is calculated, the sample outputs in the next exercise may help. You may assume the number typed in by the user is always equal to 2 or higher.
+# Sample output
+# Limit: 2
+# 3
+# Sample output
+# Limit: 10
+# 10
+# Sample output
+# Limit: 18
+# 21
+# If you have trouble understanding how the desired output is calculated, the sample outputs in the next exercise may help. You may assume the number typed in by the user is always equal to 2 or higher.
+try:
+    limit = int(input(" Enter the upper limit: "))
+    currest_sum = 0
+    current_num = 1
+    while currest_sum < limit:
+        currest_sum += current_num
+        current_num += 1
+        
+    print(currest_sum)    
+except ValueError:
+    print(" Enter a valid input")
+
+
+
+
