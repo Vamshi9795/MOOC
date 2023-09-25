@@ -1,14 +1,11 @@
-# # Print numbers until the variable a equals 5
-# a = 1
-# while True:
-#     a+=1
-#     print(a)
-#     if a == 5:
-#         break
+# lease write a program which prints out all the even numbers between two and thirty, using a loop. Print each number on a separate line.
 
-num = int(input(" Enther the number"))
-while num < 100:
-    num +=1
-    print(num)
-    if num == 50:
-        break
+# The beginning of your output should look like this:
+try:
+    number = int(input(" Enter the numbers : "))
+    while 30 < number > 20:
+        if number % 2:
+            print(" even")
+            break
+except ValueError:
+    print(" Enter the valid numberic integer input")
