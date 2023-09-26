@@ -23,3 +23,8 @@ while True:
         break
     elif len(str1) < len(str2):
         print(f" {str2} is longer cause it has {len(str2)- len(str1) } words more than {str1} ") # used to calulate the length and print the output
+        break
+    else:
+        print(f" both {str1} and {str2} has the same number of words")
+        break
+print(" Thanks for using word compariser")
