@@ -6,3 +6,7 @@
 # Please type in a string: hiya
 # Please type in an amount: 4
 # hiyahiyahiyahiya
+
+a = input(" Please type in a string: ")
+b = int(input(" please type in an amount: "))
+print(a*b)
