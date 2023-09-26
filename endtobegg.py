@@ -9,8 +9,13 @@
 # i
 # h
 
-a = input(" Enter the string")
-index = 0
-while True:
-    print(a[index])
-    index += 1
+# Ask the user for input
+user_input = input("Please type in a string: ")
+
+# Initialize an index variable to the last character in the string
+index = len(user_input) - 1
+
+# Print each character from the end to the beginning using a while loop
+while index >= 0:
+    print(user_input[index])
+    index -= 1
