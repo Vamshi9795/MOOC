@@ -9,7 +9,7 @@
 
 a = "#"
 try:
-    b = int(input(" ENter the width"))
+    b = int(input(" ENter the width: "))
     print(a*b)
 except ValueError:
     print(" Enter a numeric width")
