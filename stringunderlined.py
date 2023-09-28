@@ -17,7 +17,9 @@
  
 while True:
     a = input(" Please type in the string: ")
+    b = len(a)
+    print(b)
     c = "_"
-    print(f" a \n {len(a)* c }")
+    print(f" a \n {b* c }")
     if a == "quit":
         print(" Exiting the loop")
