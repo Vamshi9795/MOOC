@@ -16,7 +16,7 @@
 # Please type in a string: -->
  
 while True:
-    a = input(" Please type in the string")
+    a = input(" Please type in the string: ")
     print(f" a \n {len(a)}")
     if a == "quit":
         print(" Exiting the loop")
