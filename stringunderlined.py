@@ -16,10 +16,9 @@
 # Please type in a string: -->
  
 while True:
-    a = input(" Please type in the string: ")
-    b = len(a)
+    string = input(" Please type in the string: ")
+    b = len(string)
     print(b)
     c = "_"
-    print(f" a \n {b* c }")
-    if a == "quit":
-        print(" Exiting the loop")
+    print(f" {string}\n {b* c }")
+    
