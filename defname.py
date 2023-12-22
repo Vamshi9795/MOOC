@@ -1,3 +1,4 @@
 def seven_brothers():
     print("Aapo\nEero\nJuhani\nLauri\nSimeoni\nTimo\nTuomas")
-seven_brothers()
+if __name__ == "__main__":
+    seven_brothers()
